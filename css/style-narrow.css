@@ -1,5 +1,5 @@
 body {
-	font-size: 14pt;
+	/*font-size: 14pt;*/
 	letter-spacing: 0.035em;
 	line-height: 1.5em;
 }
@@ -52,4 +52,10 @@ h2 {
 
 #footer {
 	margin: 3em 0 3em 0;
+}
+
+
+ul, ol, p, dl
+{
+    margin: 0 0 2em 0;
 }

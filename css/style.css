@@ -73,6 +73,7 @@ a {
 
 .social-icon img {
     width: 25%;
+    max-width: 40px;
     vertical-align: middle;
     padding: 3px 5px 3px 5px;
 }
