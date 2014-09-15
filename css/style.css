@@ -1,0 +1,87 @@
+body {
+    background: #2c373b;
+    color: #b2b9bC;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 550;
+    line-height: 1.2em;
+}
+
+h1 {
+    font-family: 'Monospace';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+.button {
+    border-radius: 0.5em;
+    box-shadow: inset 0 0 0 2px rgba(255,255,255,0.5);
+    color: #369ab8;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#nav a {
+    color: #fff;
+    /*font-style: italic;*/
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+#hero {
+    background: #369ab8;
+    color: #fff;
+    text-align: center;
+}
+
+#footer {
+    color: #62696c;
+    text-align: center;
+}
+
+.bordered-image {
+    display: block;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.1);
+    margin: 0 0 2em 0;
+    outline: 0;
+}
+
+.bordered-image img {
+    display: block;
+    width: 100%;
+}
+
+#div-box {
+    border: 1px solid white;
+}
+
+em {
+    font-weight: 600;
+}
+
+a {
+    color: #999;
+}
+
+
+.social-icon img {
+    width: 25%;
+    vertical-align: middle;
+    padding: 3px 5px 3px 5px;
+}
+
+.current-nav-button {
+    border: 1px solid white;
+    padding: 3px 5px 3px 5px;
+}
+
+.footer-text {
+    font-style: italic;
+}
