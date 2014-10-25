@@ -35,7 +35,7 @@ section {
 
 #nav a {
 	margin: 0 0.5em 0 0.5em;
-	font-size: 1em;
+	font-size: 2em;
 }
 
 #hero {
@@ -65,3 +65,8 @@ ul, ol, p, dl
 }
 
 
+/*BG: for iPhone font size*/
+/* Mobile browsers only */
+@media only screen and (max-device-width: 480px) {      
+        td#main_box { -webkit-text-size-adjust:100% }               
+}
