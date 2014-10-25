@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.25em;
+	font-size: 2em;
 	margin-bottom: 0.5em;
 }
 
@@ -62,4 +62,11 @@ section {
 ul, ol, p, dl
 {
     margin: 0 0 2em 0;
+}
+
+
+/*BG: for iPhone font size*/
+/* Mobile browsers only */
+@media only screen and (max-device-width: 480px) {      
+        td#main_box { -webkit-text-size-adjust:100% }               
 }
