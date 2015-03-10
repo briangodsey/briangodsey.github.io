@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-	font-size: 1.5em;
+	font-size: 2em;
 	margin-bottom: 1em;
 }
 
@@ -35,7 +35,7 @@ section {
 
 #nav a {
 	margin: 0 0.5em 0 0.5em;
-	font-size: 3em;
+	font-size: 2.5em;
 }
 
 #hero {
