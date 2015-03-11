@@ -15,8 +15,8 @@
       grid: { gutters: 30 },
       breakpoints: {
       wide: { range: '1200-', containers: 1140, grid: { gutters: 50 } },
-      narrow: { range: '481-1199', containers: 960 },
-      mobile: { range: '-480', containers: 'fluid', lockViewport: true, grid: { collapse: true } }
+      narrow: { range: '481-1199', containers: 900 },
+      mobile: { range: '-599', containers: 'fluid', lockViewport: true, grid: { collapse: true } }
       }
       }
     </script>
@@ -26,13 +26,21 @@
     <div class="container">
 
       <div id="header" class="row">
-	<div class="4u">
+	<div class="5u -1u">
 	  <h1>&lt;publications&gt;</h1>
 	</div>
-	<nav id="nav" class="8u">
-	  <a href="index.html">Home</a>
-	  <a href="about.html">About</a>
-	  <a class="current-nav-button" href="publications.html">Publications</a>
+	<nav id="nav" class="4u">
+	  <div class="row">
+	    <div class="4u">
+	      <a href="index.html">Home</a>
+	    </div>
+	    <div class="4u">
+	      <a href="about.html">About</a>
+	    </div>
+	    <div class="4u">
+	      <a class="current-nav-button" href="publications.html">Publications</a>
+	    </div>
+	  </div>
 	</nav>
       </div>
 
