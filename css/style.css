@@ -86,3 +86,8 @@ a {
 .footer-text {
     font-style: italic;
 }
+
+
+.center {
+    text-align: center;
+}
