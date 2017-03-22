@@ -10,15 +10,31 @@ h1 {
     font-family: 'Monospace';
 }
 
+
+h2 {
+    font-size: 1.3em;
+}
+
 h3 {
     font-size: 1.1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #fff;
+    color: #ccc;
     font-weight: 600;
 }
 
+.alt-background {
+    background: #ddd;
+    padding: 12em 3em 12em 3em;
+    color: #333;
+}
+
+.alt-background h1,
+.alt-background h2,
+.alt-background h3 {
+    color: #333
+}
 
 
 .button {
@@ -53,11 +69,24 @@ h1, h2, h3, h4, h5, h6 {
     background: #aaa;
     padding: 10px;
     box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.1);
-    margin: 0 0 0 0;
+    margin: 0 40px 0 40px;
     outline: 0;
 }
 
 .bordered-image img {
+    display: block;
+    width: 100%;
+}
+
+.bare-image {
+    display: block;
+    padding: 0 0 0 0;
+    margin: 0 0 0 3em;
+    height: 100%;
+    max-width: 70%;
+}
+
+.bare-image img {
     display: block;
     width: 100%;
 }
@@ -97,5 +126,13 @@ a {
 }
 
 #header {
-	margin-bottom: 2em;
+	margin-bottom: 4em;
+}
+
+.extra-margin {
+    margin: 3em 3em 3em 3em;
+}
+
+.extra-padding {
+    padding: 2em 3em 0 2em;
 }

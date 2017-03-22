@@ -1,5 +1,5 @@
 body {
-	/*font-size: 14pt;*/
+	font-size: 14pt;
 	letter-spacing: 0.035em;
 	line-height: 1.5em;
 }
@@ -9,12 +9,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.1em;
 	margin-bottom: 0.5em;
-}
-
-.container {
-	padding: 0 2em 0 2em;
 }
 
 .button {
@@ -31,7 +26,7 @@ h2 {
 }
 
 #nav a {
-	margin-left: 2em;
+	margin-left: 0em;
 }
 
 #hero {

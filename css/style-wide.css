@@ -1,5 +1,5 @@
 body {
-	font-size: 13pt;
+	font-size: 18pt;
 	letter-spacing: 0.035em;
 	/*line-height: 1.2em;*/`
 }
@@ -32,7 +32,7 @@ h2 {
 }
 
 #nav a {
-	margin-left: 2em;
+	margin-left: 0em;
 }
 
 #hero {

@@ -17,8 +17,8 @@
       boxModel: 'border',
       grid: { gutters: 30 },
       breakpoints: {
-      wide: { range: '1200-', containers: 1140, grid: { gutters: 50 } },
-      narrow: { range: '481-1199', containers: 900 },
+      wide: { range: '1200-', containers: 'fluid', grid: { gutters: 30 } },
+      narrow: { range: '481-1199', containers: 'fluid' },
       mobile: { range: '-599', containers: 'fluid', lockViewport: true, grid: { collapse: true } }
       }
       }
@@ -30,7 +30,7 @@
 
       <div id="header" class="row">
 	<div class="5u -1u">
-	  <h1>&lt;publications&gt;</h1>
+	  <h1>&lt;brian godsey&gt;</h1>
 	</div>
 	<nav id="nav" class="4u">
 	  <div class="row">
@@ -38,7 +38,7 @@
 	      <a href="index.html">Home</a>
 	    </div>
 	    <div class="4u">
-	      <a href="about.html">About</a>
+	      <a href="about.html">&nbsp;&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;&nbsp;</a>
 	    </div>
 	    <div class="4u">
 	      <a class="current-nav-button" href="publications.html">Publications</a>
@@ -47,79 +47,78 @@
 	</nav>
       </div>
 
-      <div class="row">
-	<div class="3u">
-	  &nbsp;
+
+      <div class="extra-margin">
+	<div class="row">
+	  <div class="6u -2u">
+
+	    <h2>book</h2>
+	    <p>
+	      <a href="https://manning.com/books/think-like-a-data-scientist?a_aid=thinklikeadatascientist&a_bid=eb49dc22">
+		<em>Think Like a Data Scientist</em></a>, Manning, 2017
+	    </p>
+
+	    <h2>selected papers</h2>
+
+	    <!--p>Heiser, D; Tan, YS; Kaplan, I; Godsey, B; Morisot, S;
+		Cheng, W-C; Small, D; Civin, CI,
+		(2014) <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0094852"><em>Correlated
+		miR-mRNA Expression Signatures of Mouse Hematopoietic Stem
+		and Progenitor Cell Subsets Predict “Stemness” and
+		“Myeloid” Interaction Networks</em></a>, PLoS ONE,
+		9(4)</p-->
+
+	    <p>Godsey, B,
+	      (2013) <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0068358"><em>Improved
+		  Inference of Gene Regulatory Networks through Integrated
+		  Bayesian Clustering and Dynamic Modeling of Time-Course
+		  Expression Data</em></a>, PLoS ONE, 8(7)</p>
+
+	    <p>Godsey, B,
+	      (2013) <a href="http://journal.imbio.de/articles/pdf/jib-227.pdf"><em>Discovery
+		  of miR-mRNA interactions via simultaneous Bayesian
+		  inference of gene networks and clusters using
+		  sequence-based predictions and expression data</em></a>,
+	      Journal of Integrative Bioinformatics, 10(1), 227</p>
+
+	    <p>Godsey, B; Heiser, D; Civin, C,
+	      (2012) <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0051480"><em>Inferring
+		  MicroRNA Regulation of mRNA with Partially Ordered Samples
+		  of Paired Expression Data and Exogenous Prediction
+		  Algorithms</em></a>, PLoS ONE, 7(12)</p>
+
+	    <p>Godsey, B,
+	      (2012) <a href="http://arxiv.org/abs/1408.5924"><em>Comparing
+		  and Forecasting Performances in Different Events of
+		  Athletics Using a Probabilistic Model</em></a>, Journal of
+	      Quantitative Analysis in Sports,
+	      8(2), <a href="http://arxiv.org/abs/1408.5924"><em>arxiv.org:1408.5924</em></a></p>
+	    
+	    <p>
+	      <em>
+		<a href="http://scholar.google.com/citations?user=C1b_S4oAAAAJ&hl=en">Google Scholar profile</a>
+	      </em>
+	    </p>
+
+
+	    
+	    <h2>PhD thesis</h2>
+
+	    <p>Godsey, B
+	      (2013) <a href="http://www.ub.tuwien.ac.at/diss/AC10775506.pdf"><em>Probabilistic
+		  modeling of high-dimensional and high-throughput
+		  biological data</em></a>, Vienna University of Technology,
+	      advised by Peter Filzmoser</p>
+
+	  </div>
 	</div>
-	<div class="6u">
 
-	  <h2>book</h2>
-	  <p>
-	    <a href="https://manning.com/books/think-like-a-data-scientist?a_aid=thinklikeadatascientist&a_bid=eb49dc22">
-	      <em>Think Like a Data Scientist</em></a>, Manning, 2017
-	  </p>
-
-	  <h2>selected papers</h2>
-
-	  <!--p>Heiser, D; Tan, YS; Kaplan, I; Godsey, B; Morisot, S;
-	    Cheng, W-C; Small, D; Civin, CI,
-	    (2014) <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0094852"><em>Correlated
-	    miR-mRNA Expression Signatures of Mouse Hematopoietic Stem
-	    and Progenitor Cell Subsets Predict “Stemness” and
-	    “Myeloid” Interaction Networks</em></a>, PLoS ONE,
-	    9(4)</p-->
-
-	  <p>Godsey, B,
-	    (2013) <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0068358"><em>Improved
-	    Inference of Gene Regulatory Networks through Integrated
-	    Bayesian Clustering and Dynamic Modeling of Time-Course
-	    Expression Data</em></a>, PLoS ONE, 8(7)</p>
-
-	  <p>Godsey, B,
-	    (2013) <a href="http://journal.imbio.de/articles/pdf/jib-227.pdf"><em>Discovery
-	    of miR-mRNA interactions via simultaneous Bayesian
-	    inference of gene networks and clusters using
-	    sequence-based predictions and expression data</em></a>,
-	    Journal of Integrative Bioinformatics, 10(1), 227</p>
-
-	  <p>Godsey, B; Heiser, D; Civin, C,
-	    (2012) <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0051480"><em>Inferring
-	    MicroRNA Regulation of mRNA with Partially Ordered Samples
-	    of Paired Expression Data and Exogenous Prediction
-	    Algorithms</em></a>, PLoS ONE, 7(12)</p>
-
-	  <p>Godsey, B,
-	    (2012) <a href="http://arxiv.org/abs/1408.5924"><em>Comparing
-	    and Forecasting Performances in Different Events of
-	    Athletics Using a Probabilistic Model</em></a>, Journal of
-	    Quantitative Analysis in Sports,
-	    8(2), <a href="http://arxiv.org/abs/1408.5924"><em>arxiv.org:1408.5924</em></a></p>
-	  
-	  <p>
-	    <em>
-	      <a href="http://scholar.google.com/citations?user=C1b_S4oAAAAJ&hl=en">Google Scholar profile</a>
-	    </em>
-	  </p>
-
-
-	  
-	  <h2>PhD thesis</h2>
-
-	  <p>Godsey, B
-	    (2013) <a href="http://www.ub.tuwien.ac.at/diss/AC10775506.pdf"><em>Probabilistic
-	    modeling of high-dimensional and high-throughput
-	    biological data</em></a>, Vienna University of Technology,
-	    advised by Peter Filzmoser</p>
-
+	<div>
+	  <div id="footer">
+	    &copy; Brian Godsey
+	  </div>
 	</div>
       </div>
-
-      <div>
-	<div id="footer">
-	  &copy; Brian Godsey
-	</div>
-      </div>
-    </div>
 
   </body>
 </html>

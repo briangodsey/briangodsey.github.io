@@ -17,8 +17,8 @@
       boxModel: 'border',
       grid: { gutters: 30 },
       breakpoints: {
-      wide: { range: '1200-', containers: 1140, grid: { gutters: 30 } },
-      narrow: { range: '600-1199', containers: 900 },
+      wide: { range: '1200-', containers: 'fluid', grid: { gutters: 30 } },
+      narrow: { range: '600-1199', containers: 'fluid' },
       mobile: { range: '-599', containers: 'fluid', lockViewport: true, grid: { collapse: true } }
       }
       }
@@ -29,7 +29,7 @@
     <div class="container">
 
       <div id="header" class="row">
-	<div class="6u">
+	<div class="5u -1u">
 	  <h1>&lt;brian godsey&gt;</h1>
 	</div>
 	<nav id="nav" class="4u">
@@ -38,7 +38,7 @@
 	      <a class="current-nav-button" href="index.html">Home</a>
 	    </div>
 	    <div class="4u">
-	      <a href="about.html">About</a>
+	      <a href="about.html">&nbsp;&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;&nbsp;</a>
 	    </div>
 	    <div class="4u">
 	      <a href="publications.html">Publications</a>
@@ -48,184 +48,189 @@
       </div>
 
       
-      <div class="row">
-	
-	<div class="5u">
-	  <div class="row">
-	    <div class="6u">
-	      <h2>My book</h2>
-	      <h2><a href="https://manning.com/books/think-like-a-data-scientist?a_aid=thinklikeadatascientist&a_bid=eb49dc22">
-		  Think Like a Data Scientist</a></h2>
-	      <em>is available now.</em>
-	      <br/>
-	      <em>
-		See <a href="https://www.slideshare.net/ManningBooks/think-like-a-data-scientist">
-		  the slideshare here</a> for a discount code for 42%
-		off. Let me know what you think!
-	      </em>
-	    </div>
-	    <div class="5u">
-	      <a href="https://manning.com/books/think-like-a-data-scientist?a_aid=thinklikeadatascientist&a_bid=eb49dc22" class="bordered-image">
-		<img src="images/index-page/Godsey-TLDS-HI.png" alt="" /></a>
-      	    </div>
+      <div class="extra-margin">
+	<div class="row">
+	  <div class="1u">
+	    <p>&nbsp;</p>
+	  </div>
+	  <div class="5u">
+	    <h2>My book</h2>
+	    <h2><a href="https://manning.com/books/think-like-a-data-scientist?a_aid=thinklikeadatascientist&a_bid=eb49dc22">
+		Think Like a Data Scientist</a></h2>
+	    <p>
+	      is available now.
+	      See <a href="https://www.slideshare.net/ManningBooks/think-like-a-data-scientist">
+		the slideshare here</a> for a discount code for 42%
+	      off. <br/><br/>Let me know what you think!
+	    </p>
+	  </div>
+	  <div class="5u">
+	    <a href="https://manning.com/books/think-like-a-data-scientist?a_aid=thinklikeadatascientist&a_bid=eb49dc22" class="bordered-image" style="max-width: 50%">
+	      <img src="images/index-page/Godsey-TLDS-HI.png" alt="" /></a>
+      	  </div>
+	</div>
+      </div>
+
+      
+      <div class="extra-margin">
+	<div class="row">
+	  <div class="3u">
+	    <h2>Data science</h2>
+	    <p>
+	      <a href="https://manning.com/books/think-like-a-data-scientist?a_aid=thinklikeadatascientist&a_bid=eb49dc22">
+		Check out my book</a>
+	      and <a href="https://angel.co/briangodsey">my AngelList
+		profile</a>.
+	    </p>
+	  </div>
+	  <div class="3u">
+	    <h2>Maths & stats</h2>
+	    <p>
+	      See my <a href="publications.html">publications page</a> for some of my
+	      research.
+	    </p>
+	  </div>
+	  <div class="3u">
+	    <h2>Projects</h2>
+	    <p><em><a href="http://unoceros.com">Unoceros</a></em> and
+	      <em><a href="http://www.panopticonlabs.com">Panopticon Labs</a></em>.
+	    </p>
+	  </div>
+	  <div class="3u">
+	    <h2>Writing</h2> 
+	    <p>
+	      I've been <a href="https://medium.com/@briangodsey">writing on Medium</a>, too.
+	    </p>
 	  </div>
 	</div>
+      </div>
 
-	
-	<div class="3u">
-	  <div class="row">
-	    <div class="11u">
+      
+      <div class="alt-background">
+	<div class="row">
+	  <div class="2u">
+	    <p>&nbsp;</p>
+	  </div>
+	  <div class="7u">
+      	    <br/>
+	    <h2>Motto of the moment:</h2>
+	    <p>
+	      Lots of people are good at telling
+	      you things that you <em>can</em> do with data science, but I
+	      want to tell you what you <em>should</em> do.
+	    </p>
+	  </div>
+	</div>
+      </div>
+            
+
+      <div class="row">
+	<div class="7u">
+	  <a href="images/index-page/2006_10_29 Australia 204.jpg" class="bare-image">
+	    <img src="images/index-page/2006_10_29 Australia 204.jpg" alt="" /></a>
+      	</div>
+	<div class="5u">
+	  <div class="extra-padding">
+	    <br/>
+	    <br/>
+	    <h3>Once, I made a parody:</h3>
+	    <br/>
+	    <p style="margin: 0 0 0.5em 2em"><em>"I Love It When
+		You<br/>&nbsp;&nbsp;&nbsp;Call Me Big Data"</em>:
+	    </p>
+	    <br/>
+	    <p>
+	      <audio controls>
+		<source src="audio/call-me-big-data.mp3" type="audio/mpeg">
+		  Your browser does not support the audio element.
+	      </audio>
+	    </p>
+	  </div>
+	</div>
+      </div>
+
+
+      <div class="alt-background">
+	<div class="row">
+	  <div class="12u">
+	    <div class="center">
+	      <h2>Data Auteur</h2>
 	      <br/>
-	      <div class="center">
-		<br/>
-		<h3>Data Auteur</h3>
-		<br/>
-		<p>
+	      <p>
 		  Data sets are rife<br/>
 		  with errors, problems, and lies,<br/>
 		  but don't make one up.
-		</p>
-	      </div>
+		<br/>
+	      </p>
 	    </div>
 	  </div>
 	</div>
-
-
-	<div class="4u">
-	  <br/>
-	  <h2>Once, I made a parody:</h2>
-	  <p style="margin: 0 0 0.5em 2em"><em>"I Love It When
-	      You<br/>&nbsp;&nbsp;&nbsp;Call Me Big Data"</em>:
-	  </p>
-	  <br/>
-	  <p>
-	    <audio controls>
-	      <source src="audio/call-me-big-data.mp3" type="audio/mpeg">
-		Your browser does not support the audio element.
-	    </audio>
-	  </p>
-	</div>
-	
-
       </div>
 
       
-      <div class="row">
-	<div class="2u">
-	  <p>&nbsp;</p>
-	</div>
-	<div class="7u">
-      	  <br/>
-	  <h2>Motto of the moment:</h2>
-	  <p>
-	    Lots of people are good at telling
-	    you things that you <em>can</em> do with data science, but I
-	    want to tell you what you <em>should</em> do.
-	  </p>
-	</div>
-      </div>
-
-
-      <br/>
-
-      <div class="row">
-	<div class="3u">
-	  <h2>Maths & stats</h2>
-	  <p>
-	    See my <a href="publications.html">publications page</a> for some of my
-	    research.
-	  </p>
-	</div>
-
-	<div class="3u">
-	  <h2>Data science</h2>
-	  <p>
-	    <a href="https://manning.com/books/think-like-a-data-scientist?a_aid=thinklikeadatascientist&a_bid=eb49dc22">
-	      Check out my book</a>
-	    and <a href="https://angel.co/briangodsey">my AngelList
-	    profile</a>.
-	  </p>
-	</div>
-
-	<div class="3u">
-	  <h2>Writing</h2> 
-	  <p>
-	    I've been <a href="https://medium.com/@briangodsey">writing on Medium</a>, too.
-	  </p>
-	</div>
-	
-	<div class="3u">
-	  <h2>Projects</h2>
-	  <p><em><a href="http://unoceros.com">Unoceros</a></em> and
-	    <em><a href="http://www.panopticonlabs.com">Panopticon Labs</a></em>.
-	  </p>
-	</div>
-      </div>
-
-      <hr>
-      
-      <div class="row">
-	<div class="8u">
-	  <div class="row">
-	    <div class="3u">
+      <div class="extra-margin">
+	<div class="row">
+	  <div class="8u">
+	    <div class="row">
+	      <div class="3u">
 		<a href="mailto:brian@briangodsey.com?Subject=mail%20via%20briangodsey.com" class="social-icon">
 		  <img src="images/icons/email-icon-png.png" alt="" />
 		  email
 		</a>
-	    </div>
-	    <div class="3u">
+	      </div>
+	      <div class="3u">
 		<a href="https://angel.co/briangodsey" class="social-icon">
 		  <img src="images/icons/Angellist-icon.png" alt="" />
 		  AngelList
 		</a>
-	    </div>
-	    <div class="3u">
+	      </div>
+	      <div class="3u">
 		<a href="https://www.linkedin.com/in/briangodsey" class="social-icon">
 		  <img src="images/icons/elegantmediaicons/PNG/linkedin.png" alt="" />
 		  LinkedIn
 		</a>
-	    </div>
-	    <div class="3u">
+	      </div>
+	      <div class="3u">
 		<a href="https://github.com/briangodsey" class="social-icon">
 		  <img src="images/icons/github.png" alt="" />
 		  Github
 		</a>
-	    </div>
-	    <div class="3u">
+	      </div>
+	      <div class="3u">
 		<a href="https://twitter.com/BrianGodsey" class="social-icon">
 		  <img src="images/icons/elegantmediaicons/PNG/twitter.png" alt="" />
 		  Twitter
 		</a>
-	    </div>
-	    <div class="3u">
+	      </div>
+	      <div class="3u">
 		<a href="https://twitter.com/Brian_Godsey" class="social-icon">
 		  <img src="images/icons/elegantmediaicons/PNG/twitter.png" alt="" />
 		  tech Twitter
 		</a>
-	    </div>
-	    <div class="3u">
+	      </div>
+	      <div class="3u">
 		<a href="https://www.facebook.com/briangodsey" class="social-icon">
 		  <img src="images/icons/elegantmediaicons/PNG/facebook.png" alt="" />
 		  Facebook
 		</a>
-	    </div>
-	    <div class="3u">
+	      </div>
+	      <div class="3u">
 		<a href="http://www.goodreads.com/user/show/640661-brian-godsey" class="social-icon">
 		  <img src="images/icons/goodreads_icon_256.png" alt="" />
 		  Goodreads
 		</a>
+	      </div>
 	    </div>
 	  </div>
+	  <div class="3u footer-text">
+	    <p><em>Making it easy for you to stalk me on the internet
+		since 2014.</em></p>
+	  </div>
 	</div>
-	<div class="3u footer-text">
-	  <p><em>Making it easy for you to stalk me on the internet
-	    since 2014.</em></p>
-	</div>
-      </div>
-      
-      <div>
-	<div id="footer">
-	  &copy; Brian Godsey
+	<div>
+	  <div id="footer">
+	    &copy; Brian Godsey
+	  </div>
 	</div>
       </div>
     </div>
