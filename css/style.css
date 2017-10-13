@@ -1,73 +1,60 @@
 body {
-    background: #2c373b;
-    color: #b2b9bC;
-    font-family: 'Source Sans Pro', sans-serif;
+    background: #fff;
+    color: #222;
+    font-family: 'Garamond', serif;
     font-weight: 550;
     line-height: 1.2em;
 }
 
-h1 {
-    font-family: 'Monospace';
+ul, ol, p, dl
+{
+    margin: 0 0 1.5em 0;
 }
 
+h1 {
+    font-size: 1.7em;
+    margin-bottom: 0em;
+}
 
 h2 {
-    font-size: 1.3em;
+    font-size: 1.5em;
+    margin: 0.5em 0em 0.25em 0em;
 }
 
 h3 {
-    font-size: 1.1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #ccc;
+    color: #222;
     font-weight: 600;
-}
-
-.alt-background {
-    background: #ddd;
-    padding: 12em 3em 12em 3em;
-    color: #333;
-}
-
-.alt-background h1,
-.alt-background h2,
-.alt-background h3 {
-    color: #333
 }
 
 
 .button {
     border-radius: 0.5em;
     box-shadow: inset 0 0 0 2px rgba(255,255,255,0.5);
-    color: #369ab8;
     color: #fff;
     display: inline-block;
     text-decoration: none;
 }
 
 #nav a {
-    color: #fff;
+    color: #222;
     /*font-style: italic;*/
     text-decoration: none;
     font-size: 1.25em;
 }
 
-#hero {
-    background: #369ab8;
-    color: #fff;
-    text-align: center;
-}
 
-#footer {
-    color: #62696c;
+#copyright-footer {
+    color: #222;
     text-align: center;
 }
 
 .bordered-image {
     display: block;
-    background: #aaa;
-    padding: 10px;
+    background: #ddd;
+    padding: 5px;
     box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.1);
     margin: 0 40px 0 40px;
     outline: 0;
@@ -100,7 +87,7 @@ em {
 }
 
 a {
-    color: #999;
+    color: #222;
 }
 
 
@@ -112,7 +99,9 @@ a {
 }
 
 .current-nav-button {
-    border: 1px solid white;
+    border-color: #222;
+    border-style: solid;
+    border-width: 1px;
     padding: 3px 5px 3px 5px;
 }
 
@@ -126,13 +115,61 @@ a {
 }
 
 #header {
-	margin-bottom: 4em;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 0px 30px 0px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    background: #fff;
 }
 
 .extra-margin {
-    margin: 3em 3em 3em 3em;
+    margin: 3em 3em 0em 3em;
 }
 
-.extra-padding {
-    padding: 2em 3em 0 2em;
+#footer {
+    z-index: 1;
+    position: fixed;
+    --width: 100%;
+    --max-width: 100%;
+    bottom: 0;
+}
+
+.foreground-panel {
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    padding: 3em 3em 3em 3em;
+    min-height: 40em;
+}
+
+.last-foreground-panel {
+    border-bottom: 2px solid #222;
+}
+
+.foreground-spacer {
+    width: 100%;
+    padding: 0em 0em 4em 0em;
+    position: relative;
+    z-index: 0;
+}
+
+
+.background-image {
+    z-index: 1;
+}
+
+.picture-panel {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    padding: 3em 3em 3em 3em;
+}
+
+.picture-panel-text {
+    background-color: #fff;
+    opacity: 0.9;
+    padding: 2em 2em 2em 2em;
 }

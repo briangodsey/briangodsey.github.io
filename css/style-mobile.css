@@ -1,16 +1,6 @@
 body {
-	/*font-size: 12.5pt;*/
+	font-size: 90%;
 	line-height: 1.5em;
-}
-
-h1 {
-	font-size: 2em;
-	margin-bottom: 1em;
-}
-
-h2 {
-	font-size: 1.25em;
-	margin-bottom: 0.5em;
 }
 
 section {
@@ -27,37 +17,21 @@ section {
 #header {
 	margin-top: 2.5em;
 	text-align: center;
+        position: relative;
 }
 
 #nav a {
 	margin: 0 0.5em 0.5em 0.5em;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
-#hero {
-	border-radius: 0.5em;
-	line-height: 2em;
-	margin: 2em 0 2em 0;
-	padding: 3em 2em 3em 2em;
-}
-
-#hero h2 {
-	font-size: 2em;
-	margin-bottom: 0.75em;
-}
-
-#hero p {
-	font-size: 1.25em;
-	margin-bottom: 1.5em;
+#copyright-footer {
+    margin-bottom: 2em;
 }
 
 #footer {
-	margin-bottom: 2em;
-}
-
-ul, ol, p, dl
-{
-    margin: 0 0 2em 0;
+    position: relative;
+    width: auto;
 }
 
 
@@ -65,4 +39,19 @@ ul, ol, p, dl
 /* Mobile browsers only */
 @media only screen and (max-device-width: 480px) {      
         td#main_box { -webkit-text-size-adjust:100% }               
+}
+
+
+.picture-panel-text {
+    padding-left: 10px;
+}
+
+
+.foreground-panel {
+    padding: 3em 3em 6em 3em;
+}
+
+
+.foreground-spacer {
+    padding: 0em 0em 0em 0em;
 }
