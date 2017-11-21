@@ -2,7 +2,7 @@ body {
     background: #fff;
     color: #222;
     font-family: 'Garamond', serif;
-    font-weight: 550;
+    font-weight: 400;
     line-height: 1.2em;
 }
 
@@ -172,9 +172,4 @@ a {
     background-color: #fff;
     opacity: 0.9;
     padding: 2em 2em 2em 2em;
-}
-
-
-#publications p {
-    font-weight: 400;
 }
