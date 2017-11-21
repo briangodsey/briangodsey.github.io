@@ -173,3 +173,8 @@ a {
     opacity: 0.9;
     padding: 2em 2em 2em 2em;
 }
+
+
+#publications p {
+    font-weight: 400;
+}
